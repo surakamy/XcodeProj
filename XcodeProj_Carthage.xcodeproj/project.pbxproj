@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,8 @@
 		1270ABC0B6133C84F57A8D3F /* XCScheme+PathRunnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EF076F4983A1ABBD3CC81B /* XCScheme+PathRunnable.swift */; };
 		13CBB83040E0B373CE80CB16 /* PBXBuildFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13177CF1296C6C32BF4C5B7C /* PBXBuildFile.swift */; };
 		147157016720CE9BC5943AF2 /* XCScheme+LaunchAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE77276DEE6859DE961F94D /* XCScheme+LaunchAction.swift */; };
-		1ADDD97C53AEC0990F693CDA /* AEXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C950F23FEF894B133070990 /* AEXML.framework */; };
+		18075FFD279457DD00D847C4 /* PathKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18075FFC279457DD00D847C4 /* PathKit */; };
+		180760002794582700D847C4 /* AEXML in Frameworks */ = {isa = PBXBuildFile; productRef = 18075FFF2794582700D847C4 /* AEXML */; };
 		1C99B6399AB8732EA97B1EEC /* XCSwiftPackageProductDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9937B44A9FCDD847F79008 /* XCSwiftPackageProductDependency.swift */; };
 		209B0AC5FFCE800A35624C49 /* XCScheme+RemoteRunnable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFCA27253AECAC6A2EF5E66 /* XCScheme+RemoteRunnable.swift */; };
 		23A0E815358EB2D937F40513 /* PBXBatchUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B779835760A818E59969D1 /* PBXBatchUpdater.swift */; };
@@ -36,7 +37,6 @@
 		4F427C99A47227F5592A1522 /* BuildSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A113CBABFAE791D1B9C6BBE /* BuildSettings.swift */; };
 		53CE6B2F74AB5FAA69D58923 /* XCScheme+SerialAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694034B4B7C9DF231B007A84 /* XCScheme+SerialAction.swift */; };
 		586BB941B8D71312F85033A1 /* PBXContainerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A4EEFB9DE8F475B051FDE /* PBXContainerItem.swift */; };
-		5A9C450597EC43859570B863 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89DAD13D5505D59F10D0C9F /* PathKit.framework */; };
 		61FFC23B7055683822148DDE /* PBXContainerItemProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2370B4E19828CEFC032511A1 /* PBXContainerItemProxy.swift */; };
 		625CFEF76B6D5B02D3A1CEC6 /* Equality.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E639EC9D100AFD2CEAEE82E0 /* Equality.generated.swift */; };
 		64DB0043086F77457C7B223D /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DAB211D02099ECDC268AE2 /* String+Utils.swift */; };
@@ -126,7 +126,6 @@
 		0AE25C88F5874509586B3AD4 /* XCWorkspaceDataElementLocationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCWorkspaceDataElementLocationType.swift; sourceTree = "<group>"; };
 		0AE91C6982618C1EDDAAD596 /* XCScheme+TestableReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCScheme+TestableReference.swift"; sourceTree = "<group>"; };
 		0BFCA27253AECAC6A2EF5E66 /* XCScheme+RemoteRunnable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCScheme+RemoteRunnable.swift"; sourceTree = "<group>"; };
-		0C950F23FEF894B133070990 /* AEXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AEXML.framework; sourceTree = "<group>"; };
 		13177CF1296C6C32BF4C5B7C /* PBXBuildFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXBuildFile.swift; sourceTree = "<group>"; };
 		15DE1D6B3000410D531F05AA /* XCWorkspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCWorkspace.swift; sourceTree = "<group>"; };
 		161E967D0979EF34C7DF6348 /* XCScheme+TestAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCScheme+TestAction.swift"; sourceTree = "<group>"; };
@@ -215,7 +214,6 @@
 		E63AB43AF9F4C4F938680EA9 /* XcodeProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XcodeProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE041A9A60D18302045BA2AE /* Path+Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path+Extras.swift"; sourceTree = "<group>"; };
 		F7419D9A4F0B11214441DFA3 /* XCWorkspaceDataGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCWorkspaceDataGroup.swift; sourceTree = "<group>"; };
-		F89DAD13D5505D59F10D0C9F /* PathKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PathKit.framework; sourceTree = "<group>"; };
 		F8B667CA83B0BB0285F470F1 /* XcodeProj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeProj.swift; sourceTree = "<group>"; };
 		FC12E1A11D67971AEC27AA12 /* PBXShellScriptBuildPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBXShellScriptBuildPhase.swift; sourceTree = "<group>"; };
 		FF9EA2BB676DB8C978248670 /* ReferenceGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceGenerator.swift; sourceTree = "<group>"; };
@@ -226,8 +224,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADDD97C53AEC0990F693CDA /* AEXML.framework in Frameworks */,
-				5A9C450597EC43859570B863 /* PathKit.framework in Frameworks */,
+				180760002794582700D847C4 /* AEXML in Frameworks */,
+				18075FFD279457DD00D847C4 /* PathKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,15 +318,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3A8CD2E0DBF7926CA8099221 /* Mac */ = {
-			isa = PBXGroup;
-			children = (
-				0C950F23FEF894B133070990 /* AEXML.framework */,
-				F89DAD13D5505D59F10D0C9F /* PathKit.framework */,
-			);
-			path = Mac;
-			sourceTree = "<group>";
-		};
 		3DB2726F254A120563894AF8 /* Scheme */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,14 +388,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		7EDBBC6ACE86FC676ABA8907 /* Build */ = {
-			isa = PBXGroup;
-			children = (
-				3A8CD2E0DBF7926CA8099221 /* Mac */,
-			);
-			path = Build;
-			sourceTree = "<group>";
-		};
 		8036291DDCEF10624F3285CD /* Sourcery */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,19 +400,10 @@
 		80D59D67CEEE76EA108CFAAB /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				844A2C8AF87F23D7DE2CD3AB /* Carthage */,
 				BA1E76638FEE70CBAD8B9592 /* Sources */,
 				D2D78F3ED94EB9E973644780 /* Info.plist */,
 			);
 			name = Project;
-			sourceTree = "<group>";
-		};
-		844A2C8AF87F23D7DE2CD3AB /* Carthage */ = {
-			isa = PBXGroup;
-			children = (
-				7EDBBC6ACE86FC676ABA8907 /* Build */,
-			);
-			path = Carthage;
 			sourceTree = "<group>";
 		};
 		8D7B131E2371306262CF7D29 /* Files */ = {
@@ -540,6 +512,10 @@
 			dependencies = (
 			);
 			name = XcodeProj;
+			packageProductDependencies = (
+				18075FFC279457DD00D847C4 /* PathKit */,
+				18075FFF2794582700D847C4 /* AEXML */,
+			);
 			productName = XcodeProj;
 			productReference = E63AB43AF9F4C4F938680EA9 /* XcodeProj.framework */;
 			productType = "com.apple.product-type.framework";
@@ -550,8 +526,6 @@
 		223DB5C7FA35E8FD593C4040 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = 477F800A701B31C60A80EACC /* Build configuration list for PBXProject "XcodeProj_Carthage" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -562,6 +536,10 @@
 				en,
 			);
 			mainGroup = 791C387E48AEA6D5F75AC47F;
+			packageReferences = (
+				18075FFB279457DD00D847C4 /* XCRemoteSwiftPackageReference "PathKit" */,
+				18075FFE2794582700D847C4 /* XCRemoteSwiftPackageReference "AEXML" */,
+			);
 			productRefGroup = 25C374C70C6324F44964CA1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -890,6 +868,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18075FFB279457DD00D847C4 /* XCRemoteSwiftPackageReference "PathKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kylef/PathKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		18075FFE2794582700D847C4 /* XCRemoteSwiftPackageReference "AEXML" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tadija/AEXML";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18075FFC279457DD00D847C4 /* PathKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18075FFB279457DD00D847C4 /* XCRemoteSwiftPackageReference "PathKit" */;
+			productName = PathKit;
+		};
+		18075FFF2794582700D847C4 /* AEXML */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18075FFE2794582700D847C4 /* XCRemoteSwiftPackageReference "AEXML" */;
+			productName = AEXML;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 223DB5C7FA35E8FD593C4040 /* Project object */;
 }
